@@ -1,0 +1,4 @@
+cluster,gols,assistencias,xG,desarmes,interceptacoes,cortes,defesas_gk,clean_sheets,minutos,idade,valor_mercado,posicao_dominante,n_jogadores,nome_cluster
+0,0.85,0.78,0.92,0.0,10.19,0.0,0.68,0.05,1009.09,26.31,56483516.48,MF,2403,Perfil 0
+1,6.49,3.41,6.25,0.0,12.54,0.0,0.0,0.0,2019.28,26.42,72766990.29,MF,439,Atacantes
+2,0.0,0.14,0.01,0.0,0.35,0.0,79.19,7.63,2489.46,29.84,43333333.33,GK,111,Goleiros
