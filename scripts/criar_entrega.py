@@ -16,14 +16,10 @@ def organizar_pipeline():
         shutil.rmtree(PIPELINE)
     dados_dst.mkdir(parents=True)
 
-    notebooks = [
-        "trabalho_mineracao_dados.ipynb",
-        "trabalho_mineracao_dados_resultados.ipynb",
-    ]
-    for nb in notebooks:
-        src = ROOT / nb
-        if src.exists():
-            shutil.copy2(src, PIPELINE / nb)
+    nb = "trabalho_mineracao_dados.ipynb"
+    src = ROOT / nb
+    if src.exists():
+        shutil.copy2(src, PIPELINE / nb)
 
     csvs = [
         "transfermarkt_raw.csv",
