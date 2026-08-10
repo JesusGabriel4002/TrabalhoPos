@@ -1,0 +1,28 @@
+[
+  {
+    "modelo":"Árvore de Decisão",
+    "best_params":{
+      "clf__criterion":"gini",
+      "clf__max_depth":4,
+      "clf__min_samples_leaf":20,
+      "clf__min_samples_split":2
+    },
+    "best_cv_recall":0.6119047619
+  },
+  {
+    "modelo":"Naive Bayes (Gaussiano)",
+    "best_params":{
+      "clf__var_smoothing":0.0
+    },
+    "best_cv_recall":0.6028138528
+  },
+  {
+    "modelo":"KNN",
+    "best_params":{
+      "clf__metric":"euclidean",
+      "clf__n_neighbors":5,
+      "clf__weights":"uniform"
+    },
+    "best_cv_recall":0.6257575758
+  }
+]
